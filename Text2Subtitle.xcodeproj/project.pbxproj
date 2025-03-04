@@ -29,9 +29,22 @@
 		F057FA822D770D40003B1CE4 /* Text2SubtitleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text2SubtitleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F057FA982D771356003B1CE4 /* Exceptions for "Text2Subtitle" folder in "Text2Subtitle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F057FA662D770D3F003B1CE4 /* Text2Subtitle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F057FA692D770D3F003B1CE4 /* Text2Subtitle */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F057FA982D771356003B1CE4 /* Exceptions for "Text2Subtitle" folder in "Text2Subtitle" target */,
+			);
 			path = Text2Subtitle;
 			sourceTree = "<group>";
 		};
@@ -401,7 +414,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = Text2Subtitle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Access to the documents folder is required to upload srt and txt files and to create subtitle files.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Access to the documents folder is required to upload srt and txt files and to create subtitle files.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2025";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -428,7 +445,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = Text2Subtitle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Access to the documents folder is required to upload srt and txt files and to create subtitle files.";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Access to the documents folder is required to upload srt and txt files and to create subtitle files.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2025";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
